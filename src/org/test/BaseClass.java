@@ -120,6 +120,9 @@ public class BaseClass {
 	public void waittime(long value) {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
+	public static void main(String[] args) {
+		System.out.println("Vaa Arunachalam");
+	}
 	
 }
 
